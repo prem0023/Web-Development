@@ -1,0 +1,174 @@
+body{
+    font-family: 'Anaheim', sans-serif;
+    font-size: 1.2em;
+}
+.menu-bar{
+    cursor: pointer;
+}
+.bar-con{
+    height: 30px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 10; 
+    position: fixed;
+}
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 4px;
+    background-color: green;
+    margin: 6px 0;
+    transition: 0.4s;
+    transform: translateY(-15px);
+}
+.icon #bar1{
+    transform: translate(0px, -10px) rotate(-45deg);
+}
+.icon #bar3{
+    transform: translate(0px, -30px) rotate(45deg);
+}
+.icon #bar2{
+    opacity: 0;
+}
+.menu{
+    display: none;
+    width: 350px;
+    padding: 10px;
+    transition: 3s ease;
+}
+.change{
+    background-color: rgb(248, 248, 179) ;
+    display: grid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.que{
+    text-align: center;
+}
+#id-select{
+    width: 250px;
+}
+.grid-view{
+    display: grid;
+    grid-template-columns:  auto auto;
+}
+.run-test{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5px;
+}
+.btn-run{
+    margin: 5px;
+    height: 35px;
+    width: 120px;
+    background-color: gray;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px 0px rgb(82, 81, 81);
+}
+.result{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin: 5px;
+}
+.cs{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.one, .two, .three{
+    border: none;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    margin: 5px;
+}
+.two{
+    background-color: rgb(22, 187, 22);
+}
+.three{
+    background-color: rgb(240, 151, 50);
+}
+
+.help{
+    text-align: center;
+    font-size: 15px;
+}
+.container{
+    margin: 20px 0px;
+    padding: 25px;
+    background-color: rgb(253, 253, 203);
+}
+.envalop{
+    border: 1px solid silver;
+    width: 70vw;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+}
+header{
+    padding: 10px 0;
+    height: 100px;
+}
+.navbar{
+    padding: 25px 0px 0px 0px;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.note{
+    padding-left: 15px;
+}
+.inside-body{
+    padding: 25px;
+    padding: 15px 25px 25px 25px;
+}
+#fieldset{
+    border: 1px solid silver;
+}
+.personaldetail{
+    padding-bottom: 10px;
+}
+.about{
+    border: 1px solid silver;
+    padding: 0px 15px;
+}
+#phone{
+    width: 150px;
+}
+
+.view{
+    border: 1px solid silver;
+    padding: 10px 15px;
+}
+.form-pol{
+    display: inline-block;
+}
+.easy{
+    padding: 10px 0px;
+}
+
+.proof{
+    display: inline-block;
+}
+.btn{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.button{
+    text-align: center;
+    padding-top: 15px ;
+}
