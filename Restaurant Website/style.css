@@ -1,0 +1,186 @@
+html{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+    /* font-size: 10px; */
+    color: #272727;
+    letter-spacing: -1px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}.bg{
+    background-image: url("background.jpg");
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -100;
+    left: 0;
+    top: 0;
+}
+.navbar{
+    /* display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0px 37px; */
+    display: grid;
+    grid-gap: 10px;
+    padding: 0px 37px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.text{
+    background-color: #ffc600;
+    height: 35px;
+    width: 17.7vw;
+    text-align: center;
+    padding: 5px 0px;
+    position: relative;
+    top: 55px;
+    line-height: 35px;
+    font-size: 19px;
+}
+
+.grid1{
+    display: grid;
+    position:relative;
+    top: 90px;
+    padding: 0px 40px 0px 45px;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-areas: "tacos tacos tacos-price"
+                         "tacos tacos kombucha";
+}
+.tacos{
+    /* width: 62vw; */
+    /* grid-row: 1/3; */
+    /* display: flex; */
+    grid-area: tacos;
+    height: 400px;
+    background-image: url(tacos.jpg);
+    background-size: cover;
+    /* justify-content: center; */
+}
+.con-terry{
+    background-color: #ffc600;
+    height: 50px;
+    width: 235px;
+    position: relative;
+    top: 160px;
+    left: 50px;
+}
+.terry{
+    height: 50px;
+    width: 235px;
+    font-size: 25px;
+    text-align:center;
+    line-height: 45px;
+}
+.con-pretty{
+    width:150px;
+    height: 30px;
+    background-color: #ffc600;
+    position: relative;
+    top: 180px;
+    left: 50px;
+}
+.pretty{
+    width:150px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+}
+.tacos-price{
+    /* width: 28vw; */
+    /* height: 33vh; */
+    grid-area: tacos-price;
+    background-color: #ffc600;
+    /* position: inherit; */
+
+}
+.cost{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    position: relative;
+    top: 45px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.name{
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+.kombucha{
+    /* width: 28vw; */
+    /* height: 33vh; */
+    grid-area: kombucha;
+    background-color: #ffc600;
+    /* position: relative; */
+    /* right: -5px; */
+    /* grid-column: 2; */
+}
+
+.grid2{
+    /* display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* column-gap: 20px; */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    position: relative;
+    top: 130px;
+    padding: 0px 30px;
+}
+.snacks{
+    /* width: 22vw; */
+    /* height: 25vh; */
+    /* width: fit-content; */
+    block-size: fit-content;
+    background-color: white;
+    text-align: center;
+}
+.sticker{
+    font-size: 50px;
+}
+.description{
+    color: gray;
+    font-size: 15px;
+}
+.featured-taco{
+    background-color: white;
+    /* display: grid; */
+    position:relative;
+    top: 160px;
+    margin: 0px 40px;
+    display: grid;
+    /* grid-template-columns: 400px 1fr; */
+    align-items: center;
+    block-size: fit-content;
+    height: 60vh;
+}
+.taco{
+    position: relative;
+    padding: 45px;
+}
+.one, .btn{
+    position: relative;
+    top: -280px;
+    left: 470px;
+}
+.one-one{
+    font-size: 25px;
+}
+.btn{
+    font-weight: 100;
+    background-color: #ffc600;
+    border: none;
+    height: 30px;
+    width: 115px;
+}
+.instant{
+    position: relative;
+    /* background-color: white; */
+}

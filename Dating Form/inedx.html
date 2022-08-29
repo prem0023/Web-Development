@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu-bar">
+        <div id="bar-con" class="bar-con" onclick="myFunction()">
+            <div id="bar1" class="bar1"></div>
+            <div id="bar2" class="bar2"></div>
+            <div id="bar3" class="bar3"></div>
+        </div>
+        <div id="menu" class="menu">
+            <div class="que">
+                Select Test Suite
+            </div>
+            <form action="" class="suite-test">
+                <select name="" id="id-select">
+                    <option value="---">---</option>
+                    <option value="Tribute Page">Tribute Page</option>
+                    <option value="Personal Portfolio">Personal Portfolio</option>
+                    <option value="Survey Form">Survey Form</option>
+                    <option value="Product Landing Page">Product Landing Page</option>
+                    <option value="Technical Documentation Page">Technical Documentation Page</option>
+                    <option value="Random Quote Machine">Random Quote Machine</option>
+                    <option value="Markdown Previewer">Markdown Previewer</option>
+                    <option value="Drum Machine">Drum Machine</option>
+                    <option value="25 + 5 Clock">25 + 5 Clock</option>
+                    <option value="Javascript Calculator">Javascript Calculator</option>
+                    <option value="D3: Bar Chart">D3: Bar Chart</option>
+                    <option value="D3: Scatter Plot">D3: Scatter Plot</option>
+                    <option value="D3: Heat Map">D3: Heat Map</option>
+                    <option value="D3: Choropleth">D3: Choropleth</option>
+                    <option value="D3: Tree Map">D3: Tree Map</option>
+                </select>
+            </form>
+            <div class="grid-view">
+                <div class="run-test">
+                    <button class="btn-run">Run Tests</button>
+                    <button class="btn-run">Test</button>
+                </div>
+                <div class="result">
+                    <div class="color">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                    <div class="cs">
+                        <div class="failed">Test(s) Failed</div>
+                        <div class="passed">Tests Passed</div>
+                        <div class="executing">Tests Executing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="help">
+                <a href="https://forum.freecodecamp.org/c/general/1" target="_blank">Ask For Help</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="envalop">
+            <header>
+                <nav class="navbar">
+                    Application For Permission to date My Daughter
+                </nav>
+                <div class="note">
+                    <p>
+                        <b>Note: </b> Form is to be completed at least 21 days prior to date
+                    </p>
+                </div>
+            </header>
+
+            <div class="inside-body">
+                <fieldset id="fieldset">
+                    <legend>Personal details</legend>
+
+                    <div class="personalDetail">
+                        <form action="" method="">
+                            <label for="name">Name: &nbsp;</label>
+                            <input placeholder="Enter name here" type="text" id="name" autofocus name="name"><br><br>
+                            <label for="address">Address:&nbsp;</label>
+                            <input placeholder="Enter address here" type="text" id="address" name="address"><br><br>
+                            <label for="email">Email:&nbsp;</label>
+                            <input placeholder="Enter email here" type="email" id="email" name="email"><br><br>
+                            <label for="phone">Phone Number:&nbsp;</label>
+                            <input placeholder="Enter 10 digit number" type="number" id="phone" name="phone" min="1"
+                                max="9"><br><br>
+                            <label for="iq">IQ:&nbsp;</label>
+                            <input placeholder="Enter IQ here" type="number" name="iq" id="iq" min="1" max="100">
+
+                            <p>Gender</p>
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" value="Male" checked="checked"><br>
+                            <label for="female">Female</label>
+                            <input type="radio" id="female" name="gender" value="Female"><br>
+                            <label for="other">Other</label>
+                            <input type="radio" id="other" name="gender" value="Other"><br><br>
+
+                            <label for="date">Date of Proposed Outing: &nbsp;</label>
+                            <input type="date" id="date" name="date">
+
+                        </form>
+                    </div>
+                </fieldset>
+
+                <br>
+
+                <div class="about">
+                    Check All That Apply
+                    <form action="" method="">
+                        <br>
+                        <input type="checkbox" id="tattoos" name="tattoos" value="I have tattoos and/or piercings">
+                        <label for="tattoos">I have tattoos and/or piercings</label><br>
+
+                        <input type="checkbox" id="older" name="older"
+                            value="I am more than 2 years older than your daughter">
+                        <label for="older">I am more than 2 years older than my daughter</label><br>
+
+                        <input type="checkbox" id="own" name="own" value="I own a panel van or V8 ute">
+                        <label for="own">I own a panel van or V8 ute</label><br>
+
+                        <input type="checkbox" id="work" name="work" value="I work full-time" checked="checked">
+                        <label for="work">I work full-time</label><br>
+
+                        <input type="checkbox" id="finance" name="finance" value="My parents are rich"
+                            checked="checked">
+                        <label for="finance">My parents are rich</label><br>
+
+                        <input type="checkbox" id="location" name="location"
+                            value="Is the date at a well lit public location" checked="checked">
+                        <label for="location">Is the date at a well lit public location</label>
+                        <br><br>
+                    </form>
+                </div>
+
+                <br>
+
+                <div class="view">
+                    <div class="form-pol">
+                        Political Persuasion:
+                        <form action="" class="form-pol">
+                            <select name="" id="">
+                                <option value="Left Wing">Left Wing</option>
+                                <option value="Right Wing">Right Wing</option>
+                                <option value="Conservative">Conservative</option>
+                                <option value="Nazi">Nazi</option>
+                            </select>
+                        </form>
+                    </div>
+
+                    <div class="form-pol">
+                        Education Level Completed:
+                        <form action="" class="form-pol">
+                            <select name="" id="">
+                                <option value="University">Left Wing</option>
+                                <option value="College">College</option>
+                                <option value="High School">High School</option>
+                                <option value="None">None</option>
+                                <br><br>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+
+                <br>
+
+                <fieldset>
+                    <legend>Easy Section</legend>
+
+                    <div class="easy">
+                        <form action="">
+                            <label for="whytodate">In 50 words or more explain why you want to date my daughter
+                            </label><br>
+                            <textarea placeholder="Enter text Here" name="whytodate" id="whytodate" cols="50"
+                                rows="4"></textarea>
+                            <br><br>
+                            <label for="contact">Please upload contact details for 2 references</label><br>
+                            <textarea placeholder="Enter text Here" name="contact" id="contact" cols="50"
+                                rows="4"></textarea>
+                            <br><br>
+
+                            <div class="proof">
+                                <label for="proof">Upload Police Clearance Certificate, Bank Statement and
+                                    Medical Certifiates
+                                    here:&nbsp;</label>
+                                <button class="btn">Attach Files</button>
+                            </div>
+                        </form>
+                    </div>
+                </fieldset>
+
+                <div class="button">
+                    <button class="btn">Send Your Application</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="political">
+    <label for="political">Political Persuasion:&nbsp;</label>
+    <input list="political-persuasion" id="political" name="political"/>
+    <datalist id="political-persuasion">
+        <option value="Left Wing">
+        <option value="Right Wing">
+        <option value="Conservative">
+        <option value="Nazi">
+    </datalist>
+
+    <label for="education_level">Education Level Completed:&nbsp;</label>
+    <input list="education_level_list" id="education_level" name="education_level"/>
+    <datalist id="education_level_list">
+        <option value="University">
+        <option value="College">
+        <option value="High school">
+        <option value="None">
+    </datalist>
+</div> -->
