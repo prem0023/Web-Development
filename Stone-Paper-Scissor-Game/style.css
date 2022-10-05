@@ -1,0 +1,19 @@
+
+.image{
+    background-image: url("game.jpg");
+    background-size: cover;
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+.content{
+    top: 50px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
